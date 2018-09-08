@@ -1,9 +1,9 @@
 {
-  "devDependencies": {
-    "vuepress": "^0.13.0"
-  },
+  "name": "tttttahiti-portfolio",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "nuxt": "^1.4.2"
   }
 }
