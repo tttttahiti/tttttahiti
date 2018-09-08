@@ -3,6 +3,8 @@ import NuxtLoading from './components/nuxt-loading.vue'
 
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
+import '../assets/styles/base.scss'
+
 
 let layouts = {
 
@@ -13,7 +15,7 @@ let layouts = {
 let resolvedLayouts = {}
 
 export default {
-  head: {"meta":[],"link":[],"style":[],"script":[]},
+  head: {"title":"tttttahiti","meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[]},
   render(h, props) {
     const loadingEl = h('nuxt-loading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')
