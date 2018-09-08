@@ -12,6 +12,7 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 
 /* Plugins */
+import nuxt_plugin_templatesplugin47617a54_5c504850 from 'nuxt_plugin_templatesplugin47617a54_5c504850' // Source: ./templates.plugin.47617a54.js
 
 
 // Component: <no-ssr>
@@ -133,6 +134,7 @@ async function createApp (ssrContext) {
 
   // Plugin execution
   
+  if (typeof nuxt_plugin_templatesplugin47617a54_5c504850 === 'function') await nuxt_plugin_templatesplugin47617a54_5c504850(app.context, inject)
   
 
   // If server-side, wait for async component to be resolved first
